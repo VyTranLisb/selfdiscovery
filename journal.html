@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Questions to ask yourself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="journal">
+    <header class="main-header">
+        <nav class="nav main-nav">
+          <ul>
+            <li><a href="journal.html">WRITE</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="quote.html">QUOTES</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form class="form" id="form1">
+            <h3 class="form-title">What values do you consider most important in life?</h3>
+            <input class="input" type="text" placeholder="What are your values?">
+            <input class="input" type="text" placeholder="Why are they?">
+            <input class="input" type="text" placeholder="How do your actions align with those values">
+
+            <div class="btn-box">
+                <button class="btn" type="button" id="next1">NEXT</button>
+            </div>
+        </form>
+
+        <form class="form" id="form2">
+            <h3 class="form-title">What does your ideal day look like?</h3>
+            <input class="input" type="text" placeholder="Your morning routine">
+            <input class="input" type="text" placeholder="What do you want to do during the day?">
+            <input class="input" type="text" placeholder="Your night routine">
+
+            <div class="btn-box">
+                <button class="btn" type="button" id="back1">BACK</button>
+                <button class="btn" type="button" id="next2">NEXT</button>
+            </div>
+        </form>
+
+        <form class="form" id="form3">
+            <h3 class="form-title">What are your strengths in a relationship?</h3>
+            <input class="input" type="text" placeholder="What are they?">
+            <input class="input" type="text" placeholder="Your boundaries to maintain a healthy relationship">
+            <input class="input" type="text" placeholder="Do you appreaciate your loved ones enough?">
+
+            <div class="btn-box">
+                <button class="btn" type="button" id="back2">BACK</button>
+                <button class="btn" type="button" id="next3">NEXT</button>
+            </div>
+        </form>
+
+        <form class="form" id="form4">
+            <h3 class="form-title">What are the things that can disrupt a good mood and bring you down immediately?</h3>
+            <input class="input" type="text" placeholder="What are they?">
+            <input class="input" type="text" placeholder="What ways do you use to counter these effects?">
+            <input class="input" type="text" placeholder="How can you stay calm in those situations?">
+
+            <div class="btn-box">
+                <button class="btn" type="button" id="back3">BACK</button>
+                <button class="btn" type="button" id="next4">NEXT</button>
+            </div>
+        </form>
+
+        <form class="form" id="form5">
+            <h3 class="form-title">Are you taking enough risks in your life?</h3>
+            <input class="input" type="text" placeholder="If yes. How?">
+            <input class="input" type="text" placeholder="If no. Why?">
+            <input class="input" type="text" placeholder="What are you afraid of?">
+
+            <div class="btn-box">
+                <button class="btn" type="button" id="back4">BACK</button>
+                <a href="last.html"><button class="btn" type="button">SUBMIT</button></a>
+            </div>
+        </form>
+
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-column"><small>#1</small></div>
+            <div class="step-column"><small>#2</small></div>
+            <div class="step-column"><small>#3</small></div>
+            <div class="step-column"><small>#4</small></div>
+            <div class="step-column"><small>#5</small></div>
+        </div>
+    </div>
+    
+    <script defer src="script.js"></script>
+
+</body>
+</html>
